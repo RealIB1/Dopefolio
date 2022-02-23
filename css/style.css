@@ -66,6 +66,7 @@ textarea {
   font-size: 6rem;
   /* text-transform: uppercase; */
   letter-spacing: 3px;
+  text-shadow: 2px 2px 2px #171718;
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
@@ -91,6 +92,15 @@ textarea {
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 3.5rem;
+  /* text-shadow: 2px 2px 2px #171718; */
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                     0 3px 0 #ccc, 0 4px 0 #ccc,
+                     0 5px 0 #ccc, 0 6px 0 #ccc,
+                     0 7px 0 #ccc, 0 8px 0 #ccc,
+                     0 9px 0 #ccc, 0 10px 0 #ccc,
+                     0 11px 0 #ccc, 0 12px 0 #ccc,
+                     0 20px 30px rgba(0, 0, 0, 0.5);
+
   position: relative; }
   .heading-sec__main--lt {
     color: #fff; }
@@ -119,7 +129,8 @@ textarea {
   font-weight: 500;
   max-width: 80rem;
   margin: auto;
-  line-height: 1.6; }
+  line-height: 1.6;
+ }
   @media only screen and (max-width: 37.5em) {
     .heading-sec__sub {
       font-size: 1.8rem; } }
